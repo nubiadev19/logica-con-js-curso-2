@@ -15,7 +15,7 @@ function mostrarMensaje() {
 //con el mensaje concatenando la respuesta con el texto: "Estuve en {ciudad} y me acordé de ti".
 function preguntarCiudad(){
     let nombreCiudad=prompt("Digite un nombre de una ciudad de Brasil por favor");
-    alert(`Estuve en ${nombreCiudad} y me acordé de ti`)
+    alert(`Estuve en ${nombreCiudad} y me acordé de ti`);
 
 }
 
