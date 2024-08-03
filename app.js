@@ -1,13 +1,13 @@
 let titulo=document.querySelector('h1');
 titulo.innerHTML="Hora del desafío"
 
-//Crea una función que muestre en la consola el mensaje "El botón fue clicado" 
+//2.Crea una función que muestre en la consola el mensaje "El botón fue clicado" 
 //siempre que se presione el botón "Console".
 function mostrarMensaje() {
     console.log("El botón fue clicado");
 }
 
-//Crea una función que se ejecute cuando se haga clic en el botón "prompt", 
+//3.Crea una función que se ejecute cuando se haga clic en el botón "prompt", 
 //preguntando el nombre de una ciudad de Brasil. Luego, muestra una alerta 
 //con el mensaje concatenando la respuesta con el texto: "Estuve en {ciudad} y me acordé de ti".
 function preguntarCiudad(){
@@ -16,8 +16,15 @@ function preguntarCiudad(){
 
 }
 
-//Crea una función que muestre una alerta con el mensaje: 
+//4.Crea una función que muestre una alerta con el mensaje: 
 //"Yo amo JS" siempre que se presione el botón "Alerta".
 function mostrarAlert(){
     alert('Yo amo JS');
+}
+
+//5.Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+function sumarNumeros(){
+    let numero1=prompt('Digite un número:');
+    let numero2=prompt('Digite otro número:');
+    alert(`suma de ${numero1} y ${numero2} es: ${numero1+numero2}`);
 }
