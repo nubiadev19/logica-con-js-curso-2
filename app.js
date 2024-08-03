@@ -15,3 +15,9 @@ function preguntarCiudad(){
     alert(`Estuve en ${nombreCiudad} y me acordé de ti`)
 
 }
+
+//Crea una función que muestre una alerta con el mensaje: 
+//"Yo amo JS" siempre que se presione el botón "Alerta".
+function mostrarAlert(){
+    alert('Yo amo JS');
+}
