@@ -24,7 +24,8 @@ function mostrarAlert(){
 
 //5.Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
 function sumarNumeros(){
-    let numero1=prompt('Digite un número:');
-    let numero2=prompt('Digite otro número:');
-    alert(`suma de ${numero1} y ${numero2} es: ${numero1+numero2}`);
+    let numero1=parseInt(prompt('Digite un número:'));
+    let numero2=parseInt(prompt('Digite otro número:'));
+    let resultado=numero1+numero2
+    alert(`La suma de ${numero1} + ${numero2} es: ${resultado}`);
 }
