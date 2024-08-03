@@ -7,7 +7,7 @@ titulo.innerHTML="Hora del desafío"
 //2.Crea una función que muestre en la consola el mensaje "El botón fue clicado" 
 //siempre que se presione el botón "Console".
 function mostrarMensaje() {
-    console.log("El botón fue clicado");
+    console.log("El botón fue clicado!");
 }
 
 //3.Crea una función que se ejecute cuando se haga clic en el botón "prompt", 
